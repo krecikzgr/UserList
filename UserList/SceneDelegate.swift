@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  FinanteqRekrutacja
+//  UserList
 //
-//  Created by Adrian Kaleta on 28/11/2020.
+//  Created by Adrian Kaleta on 29/11/2020.
 //
 
 import UIKit
