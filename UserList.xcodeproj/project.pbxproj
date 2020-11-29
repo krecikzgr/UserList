@@ -14,15 +14,7 @@
 		7F52BC6A2573196E00087D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F52BC682573196E00087D04 /* LaunchScreen.storyboard */; };
 		7F52BC752573196E00087D04 /* UserListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC742573196E00087D04 /* UserListTests.swift */; };
 		7F52BC802573196E00087D04 /* UserListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC7F2573196E00087D04 /* UserListUITests.swift */; };
-		7F52BCBE257319A500087D04 /* GithubUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC92257319A400087D04 /* GithubUserDetails.swift */; };
-		7F52BCBF257319A500087D04 /* GithubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC93257319A400087D04 /* GithubUser.swift */; };
-		7F52BCC0257319A500087D04 /* GetDailymotionUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC94257319A400087D04 /* GetDailymotionUsersResponse.swift */; };
-		7F52BCC1257319A500087D04 /* DailymotionUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC95257319A400087D04 /* DailymotionUser.swift */; };
-		7F52BCC2257319A500087D04 /* DailymotionUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC96257319A400087D04 /* DailymotionUserDetails.swift */; };
 		7F52BCC3257319A500087D04 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC97257319A400087D04 /* User.swift */; };
-		7F52BCC4257319A500087D04 /* DailymotionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC9A257319A400087D04 /* DailymotionAPI.swift */; };
-		7F52BCC5257319A500087D04 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC9C257319A400087D04 /* GithubAPI.swift */; };
-		7F52BCC6257319A500087D04 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BC9E257319A400087D04 /* API.swift */; };
 		7F52BCC7257319A500087D04 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BCA1257319A400087D04 /* UIViewController+Extensions.swift */; };
 		7F52BCC8257319A500087D04 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BCA2257319A400087D04 /* UIView+Extensions.swift */; };
 		7F52BCC9257319A500087D04 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52BCA3257319A400087D04 /* UIImage+Extensions.swift */; };
@@ -82,15 +74,7 @@
 		7F52BC7B2573196E00087D04 /* UserListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F52BC7F2573196E00087D04 /* UserListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITests.swift; sourceTree = "<group>"; };
 		7F52BC812573196E00087D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F52BC92257319A400087D04 /* GithubUserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserDetails.swift; sourceTree = "<group>"; };
-		7F52BC93257319A400087D04 /* GithubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUser.swift; sourceTree = "<group>"; };
-		7F52BC94257319A400087D04 /* GetDailymotionUsersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDailymotionUsersResponse.swift; sourceTree = "<group>"; };
-		7F52BC95257319A400087D04 /* DailymotionUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailymotionUser.swift; sourceTree = "<group>"; };
-		7F52BC96257319A400087D04 /* DailymotionUserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailymotionUserDetails.swift; sourceTree = "<group>"; };
 		7F52BC97257319A400087D04 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		7F52BC9A257319A400087D04 /* DailymotionAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailymotionAPI.swift; sourceTree = "<group>"; };
-		7F52BC9C257319A400087D04 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
-		7F52BC9E257319A400087D04 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7F52BCA1257319A400087D04 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		7F52BCA2257319A400087D04 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		7F52BCA3257319A400087D04 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
@@ -169,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				7F52BC90257319A400087D04 /* Model */,
-				7F52BC98257319A400087D04 /* Networking */,
 				7F52BCA9257319A500087D04 /* Scenes */,
 				7F52BC9F257319A400087D04 /* Utilities */,
 				7F52BC5D2573196C00087D04 /* AppDelegate.swift */,
@@ -201,56 +184,9 @@
 		7F52BC90257319A400087D04 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7F52BC91257319A400087D04 /* Network */,
 				7F52BC97257319A400087D04 /* User.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		7F52BC91257319A400087D04 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				7F52BC92257319A400087D04 /* GithubUserDetails.swift */,
-				7F52BC93257319A400087D04 /* GithubUser.swift */,
-				7F52BC94257319A400087D04 /* GetDailymotionUsersResponse.swift */,
-				7F52BC95257319A400087D04 /* DailymotionUser.swift */,
-				7F52BC96257319A400087D04 /* DailymotionUserDetails.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		7F52BC98257319A400087D04 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				7F52BC99257319A400087D04 /* Dailymotion */,
-				7F52BC9B257319A400087D04 /* Github */,
-				7F52BC9D257319A400087D04 /* API */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		7F52BC99257319A400087D04 /* Dailymotion */ = {
-			isa = PBXGroup;
-			children = (
-				7F52BC9A257319A400087D04 /* DailymotionAPI.swift */,
-			);
-			path = Dailymotion;
-			sourceTree = "<group>";
-		};
-		7F52BC9B257319A400087D04 /* Github */ = {
-			isa = PBXGroup;
-			children = (
-				7F52BC9C257319A400087D04 /* GithubAPI.swift */,
-			);
-			path = Github;
-			sourceTree = "<group>";
-		};
-		7F52BC9D257319A400087D04 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				7F52BC9E257319A400087D04 /* API.swift */,
-			);
-			path = API;
 			sourceTree = "<group>";
 		};
 		7F52BC9F257319A400087D04 /* Utilities */ = {
@@ -618,25 +554,17 @@
 				7F52BCCA257319A500087D04 /* UITableView+Extensions.swift in Sources */,
 				7F52BCD0257319A500087D04 /* UserDetailPresenter.swift in Sources */,
 				7F52BCC7257319A500087D04 /* UIViewController+Extensions.swift in Sources */,
-				7F52BCC4257319A500087D04 /* DailymotionAPI.swift in Sources */,
 				7F52BCDB257319A500087D04 /* UserListCellStyle.swift in Sources */,
 				7F52BCD2257319A500087D04 /* UserDetailsStyle.swift in Sources */,
-				7F52BCC1257319A500087D04 /* DailymotionUser.swift in Sources */,
 				7F52BCD6257319A500087D04 /* UserListViewModel.swift in Sources */,
 				7F52BCD5257319A500087D04 /* UserDetailsContract.swift in Sources */,
 				7F52BCD1257319A500087D04 /* UserDetailsRowElement.swift in Sources */,
-				7F52BCBE257319A500087D04 /* GithubUserDetails.swift in Sources */,
-				7F52BCBF257319A500087D04 /* GithubUser.swift in Sources */,
 				7F52BCCF257319A500087D04 /* UserDetailViewModel.swift in Sources */,
 				7F52BCC3257319A500087D04 /* User.swift in Sources */,
 				7F52BCDA257319A500087D04 /* UserListController.swift in Sources */,
-				7F52BCC2257319A500087D04 /* DailymotionUserDetails.swift in Sources */,
-				7F52BCC0257319A500087D04 /* GetDailymotionUsersResponse.swift in Sources */,
-				7F52BCC5257319A500087D04 /* GithubAPI.swift in Sources */,
 				7F52BCD4257319A500087D04 /* UserDetailsController.swift in Sources */,
 				7F52BCCC257319A500087D04 /* Images.swift in Sources */,
 				7F52BCC9257319A500087D04 /* UIImage+Extensions.swift in Sources */,
-				7F52BCC6257319A500087D04 /* API.swift in Sources */,
 				7F52BCCD257319A500087D04 /* BaseView.swift in Sources */,
 				7F52BCD3257319A500087D04 /* UserDetailsIconView.swift in Sources */,
 				7F52BCD8257319A500087D04 /* UserListContract.swift in Sources */,

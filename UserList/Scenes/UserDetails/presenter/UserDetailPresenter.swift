@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import NetworkingLibrary
 
 class UserDetailsPresenter: UserDetailsPresenterProtocol {
     
