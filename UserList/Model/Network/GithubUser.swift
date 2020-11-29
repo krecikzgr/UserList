@@ -9,12 +9,10 @@ import Foundation
 
 struct GithubUser: Codable {
     var login: String?
-    var id: Int?
     var avatarUrl: String?
     
     enum CodingKeys: String, CodingKey {
         case login
-        case id
         case avatarUrl = "avatar_url"
     }
     

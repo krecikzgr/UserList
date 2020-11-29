@@ -36,14 +36,9 @@ class UserListCell: UITableViewCell {
     // MARK: - Private methods
     
     private func initialize() {
-        initSelf()
         initImageView()
         initTitleLabel()
         initSourceLabel()
-    }
-    
-    private func initSelf() {
-
     }
     
     private func initImageView() {
@@ -51,9 +46,11 @@ class UserListCell: UITableViewCell {
         contentView.addSubview(icon!)
         
         icon?.snp.makeConstraints({ (make) in
+            make.top.equalToSuperview().offset(UserListCellStyle.Icon.top)
             make.left.equalToSuperview().offset(UserListCellStyle.Icon.left)
+            make.bottom.equalToSuperview().inset(UserListCellStyle.Icon.bottom)
             make.centerY.equalToSuperview()
-            make.size.equalTo(UserListCellStyle.Icon.size)
+            make.size.equalTo(UserListCellStyle.Icon.size).priority(950)
         })
     }
     

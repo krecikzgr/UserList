@@ -15,7 +15,6 @@ class UserListPresenter: UserListPresenterProtocol {
     private var githubApi:GithubAPI
     private var dailymotionApi: DailymotionAPI
     private var currentSearchResults: [User] = []
-    private var showOnlyFavorites: Bool = false
     
     init(view: UserListViewProtocol,
          api: GithubAPI = GithubAPI(),
@@ -61,7 +60,7 @@ class UserListPresenter: UserListPresenterProtocol {
     // MARK: - Private methods
     
     private func setDataOnView() {
-        var viewModels = currentSearchResults.map({UserListViewModel(user: $0)})
+        let viewModels = currentSearchResults.map({UserListViewModel(user: $0)})
         view?.presentUsers(viewModels)
     }
 }

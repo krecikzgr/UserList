@@ -42,6 +42,8 @@ class UserListController: UIViewController {
     
     private func initTableView() {
         tableView = UITableView()
+        tableView?.rowHeight = UITableView.automaticDimension
+        tableView?.estimatedRowHeight = 43
         tableView?.delegate = self
         tableView?.dataSource = self
         
@@ -76,10 +78,6 @@ extension UserListController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let controller = UserDetailsController()
         let user = items[indexPath.row]

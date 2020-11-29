@@ -9,11 +9,6 @@ import UIKit
 
 
 extension UIViewController {
-    class func loadFromStoryboard() -> Self {
-        let storyboard = UIStoryboard(name:String(describing: self), bundle:Bundle(for: self as AnyClass))
-        return storyboard.instantiateInitialViewController() as! Self
-    }
-    
     func showError(message:String) {
         let alertController = UIAlertController(title: "Error",
                                                 message: message,

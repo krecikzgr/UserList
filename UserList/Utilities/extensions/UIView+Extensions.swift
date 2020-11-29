@@ -10,10 +10,10 @@ import UIKit
 extension UIView {
     static let loadingViewTag = 125
     
-    func showLoading(style: UIActivityIndicatorView.Style = .medium) {
+    func showLoading() {
         var loading = viewWithTag(UIView.loadingViewTag) as? UIActivityIndicatorView
         if loading == nil {
-            loading = UIActivityIndicatorView(style: style)
+            loading = UIActivityIndicatorView()
         }
 
         loading?.translatesAutoresizingMaskIntoConstraints = false
@@ -24,6 +24,7 @@ extension UIView {
         loading?.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         loading?.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
     }
+
     
     func stopLoading() {
         let loading = viewWithTag(UIView.loadingViewTag) as? UIActivityIndicatorView

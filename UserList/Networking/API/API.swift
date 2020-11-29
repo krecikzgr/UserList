@@ -31,7 +31,6 @@ extension APIProtocol {
     func getObject<T: Codable>(parameters:[String:Any]?,
                                path: String,
                                completionHandler: @escaping (Result<T, NetworkError>) -> Void) {
-        print("PATH \(path)")
         let baseUrl = url.appendingPathComponent(path)
         var components = URLComponents(url: baseUrl, resolvingAgainstBaseURL: false)
         components?.queryItems = parameters?.compactMap({ (key,value) -> URLQueryItem in
@@ -52,7 +51,6 @@ extension APIProtocol {
                     return
                 }
                 do {
-                    print("RESPONSE \(String(data: data, encoding: .utf8)!)")
                     let parsedData = try JSONDecoder().decode(T.self, from: data)
                     completionHandler(.success(parsedData))
                 } catch let error {
@@ -66,7 +64,6 @@ extension APIProtocol {
     func getObjects<T: Codable>(parameters:[String:Any]?,
                                 path: String,
                                 completionHandler: @escaping (Result<[T], NetworkError>) -> Void) {
-        print("PATH \(path)")
         let baseUrl = self.url.appendingPathComponent(path)
         var components = URLComponents(url: baseUrl, resolvingAgainstBaseURL: false)
         
@@ -78,8 +75,6 @@ extension APIProtocol {
             return
         }
         
-        
-        print("REQUEST \(url.absoluteString)")
         let task = session.dataTask(with:url) { (data, response, error) in
             DispatchQueue.main.async {
                 guard error == nil else {
@@ -91,7 +86,6 @@ extension APIProtocol {
                     return
                 }
                 do {
-                    print("RESPONSE \(String(data: data, encoding: .utf8)!)")
                     let parsedData = try JSONDecoder().decode([T].self, from: data)
                     completionHandler(.success(parsedData))
                 } catch let error {

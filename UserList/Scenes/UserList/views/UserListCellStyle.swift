@@ -11,7 +11,9 @@ struct UserListCellStyle {
     static let height: CGFloat = 44.0
     
     struct Icon {
+        static let top: CGFloat = 8.0
         static let left: CGFloat = 8.0
+        static let bottom: CGFloat = 8.0
         static let size: CGFloat = 27.0
     }
     
